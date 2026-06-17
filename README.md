@@ -285,21 +285,3 @@ GET /storefront/products/{id}
 
 ---
 
-# Future Improvements
-
-* Authentication
-* Order Creation
-* Payment Gateway Integration
-* Search & Filters
-* MCP Server Integration
-* Wishlist Feature
-
----
-
-# Author
-
-Ayush Dhar
-
-Final Year IT Engineering Student
-
-Shopify Integration Assignment Project
