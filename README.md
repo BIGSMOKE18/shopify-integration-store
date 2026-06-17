@@ -74,11 +74,13 @@ backend/.env
 Add the following variables:
 
 ```env
-SHOPIFY_STORE_URL=your-store.myshopify.com
+SHOPIFY_STORE_URL=integration-demo-0lxp1vqv.myshopify.com
 SHOPIFY_API_VERSION=2025-01
 SHOPIFY_ADMIN_TOKEN=your_admin_api_token
 SHOPIFY_STOREFRONT_TOKEN=your_storefront_token
 ```
+
+This Contains the Store URL of the store i created  
 
 ### How to Get These Values
 
