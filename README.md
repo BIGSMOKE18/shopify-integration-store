@@ -130,7 +130,7 @@ cd backend
 Create virtual environment:
 
 ```bash
-python -m venv venv
+python3 -m venv venv
 ```
 
 Activate environment:
@@ -233,7 +233,7 @@ Docs:     http://127.0.0.1:8000/docs
 
 ### Add Products
 
-1. Open Shopify Admin
+1. Open Shopify Admin["https://admin.shopify.com/store/integration-demo-0lxp1vqv/products"]
 2. Products
 3. Add Product
 4. Enter product information
@@ -241,17 +241,15 @@ Docs:     http://127.0.0.1:8000/docs
 
 Products will automatically appear in the frontend application.
 
-### Product Flow
+### Delete Products
 
-```text
-Products
-   ↓
-Product Details
-   ↓
-Add To Cart
-   ↓
-Checkout
-```
+1. Open Shopify Admin
+2. Products
+3. Delete Product
+4. Enter product information
+5. Save
+
+Products will automatically disappear in the frontend application.
 
 ---
 
