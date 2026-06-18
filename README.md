@@ -247,6 +247,7 @@ This project includes an MCP (Model Context Protocol) server that exposes Shopif
 cd backend
 python mcp_server.py
 ```
+To run the mcp server use the python 3.11 or later versions
 
 The server exposes Shopify actions as MCP tools for use with AI agents and MCP-compatible clients.
 
