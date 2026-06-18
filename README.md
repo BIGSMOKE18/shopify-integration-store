@@ -229,6 +229,29 @@ Docs:     http://127.0.0.1:8000/docs
 
 ---
 
+## MCP Server
+
+This project includes an MCP (Model Context Protocol) server that exposes Shopify operations as tools.
+
+### Available MCP Tools
+
+* search_products()
+* fetch_orders()
+* fetch_order(order_id)
+* fetch_customers()
+* fetch_customer(customer_id)
+
+### Run MCP Server
+
+```bash
+cd backend
+python mcp_server.py
+```
+
+The server exposes Shopify actions as MCP tools for use with AI agents and MCP-compatible clients.
+
+---
+
 # Usage
 
 ### Add Products
